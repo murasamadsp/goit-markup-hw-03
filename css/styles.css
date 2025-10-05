@@ -49,11 +49,12 @@ img {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 
 .section {
-  padding: 120px 0;
+  padding: 120px 15px;
+  
 }
 
 .visually-hidden {
@@ -78,7 +79,8 @@ img {
   display: flex;
   justify-content: space-between;
   gap: 72px;
-  padding: 24px 15px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header {
