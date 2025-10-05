@@ -78,7 +78,8 @@ img {
   display: flex;
   justify-content: space-between;
   gap: 72px;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header {
@@ -175,7 +176,6 @@ img {
   /* display: flex; */
   /* align-items: center; */
   /* justify-content: center; */
-  
 }
 
 .hero-title {
@@ -185,7 +185,6 @@ img {
   line-height: 1.07;
   max-width: 496px;
   margin: 0 auto 48px auto;
-
 }
 
 .hero-button {
@@ -226,13 +225,16 @@ img {
   color: var(--dark);
   font-weight: 500;
   font-size: 20px;
-  
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .benefits-desc {
   color: var(--text);
   /* line-height: 24px; */
+}
+
+.benefits-item {
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 /* #endregion Benefits */
@@ -268,8 +270,6 @@ img {
   line-height: 1.2;
   margin-bottom: 8px;
 }
-
-
 
 /* #endregion Team */
 
