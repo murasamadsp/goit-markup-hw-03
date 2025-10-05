@@ -88,7 +88,7 @@ img {
 .nav {
   display: flex;
   align-items: center;
-  gap: 72px;
+  /* gap: 72px; */
 }
 
 .nav-logo {
@@ -104,6 +104,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-right: 76px;
 }
 
 .nav-logo-accent {
@@ -123,6 +125,8 @@ img {
   color: var(--dark);
   font-size: 16px;
   line-height: 1.5;
+
+  padding: 24px 0
 }
 
 .nav-link:hover,
