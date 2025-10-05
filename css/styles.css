@@ -237,6 +237,10 @@ img {
   flex-basis: calc((100% - 72px) / 4);
 }
 
+.benefits-item:first-child {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
 /* #endregion Benefits */
 
 /* #region Team */
@@ -256,11 +260,13 @@ img {
 }
 
 .team-list {
-  background-color: var(--white);
+  display: flex;
+  gap: 24px;
 }
 
 .team-item {
   background-color: var(--white);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-title {
