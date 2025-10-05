@@ -267,7 +267,11 @@ img {
 
 .team-item {
   background-color: var(--white);
+}
+
+.team-item:first-child {
   flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-info {
@@ -298,11 +302,14 @@ img {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 
 .portfolio-title {
@@ -310,6 +317,10 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+}
+
+.portfolio-info {
+  padding: 32px 0;
 }
 
 .portfolio-item {
