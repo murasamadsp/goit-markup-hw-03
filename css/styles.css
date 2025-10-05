@@ -226,7 +226,7 @@ img {
   color: var(--dark);
   font-weight: 500;
   font-size: 20px;
-  /* line-height: 1.2; */
+  
   padding-bottom: 8px;
 }
 
@@ -250,6 +250,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -265,7 +266,10 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  margin-bottom: 8px;
 }
+
+
 
 /* #endregion Team */
 
