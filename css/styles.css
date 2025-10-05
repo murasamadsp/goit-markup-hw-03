@@ -79,6 +79,7 @@ img {
   justify-content: space-between;
   align-items: center;
   gap: 72px;
+  padding: 24px 15px;
 }
 
 .header {
@@ -88,8 +89,6 @@ img {
 .nav {
   display: flex;
   align-items: center;
-
-  /* gap: 72px; */
 }
 
 .nav-logo {
