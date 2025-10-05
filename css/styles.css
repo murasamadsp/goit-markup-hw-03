@@ -47,9 +47,13 @@ img {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 156px;
+}
+
+section {
+  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -190,15 +194,35 @@ img {
 
 /* #region Benefits */
 
+.benefits {
+  /* background-color: var(--white); */
+}
+
+
+
+.benefits-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.benefits-item {
+  /* background-color: var(--white); */
+}
+
 .benefits-title {
   color: var(--dark);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  /* line-height: 1.2; */
+  padding-bottom: 8px;
 }
 
 .benefits-desc {
   color: var(--text);
+  /* line-height: 24px; */
 }
 
 /* #endregion Benefits */
