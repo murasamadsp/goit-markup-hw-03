@@ -73,12 +73,15 @@ img {
 
 /* #region - Header - */
 
-/* #region Navigation */м
+/* #region Navigation */
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 72px;
   padding: 24px 15px;
+  max-width: 1158px;
+  margin: 0 auto;
 }
 
 .header {
