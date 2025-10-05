@@ -49,10 +49,10 @@ img {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0 156px;
+  padding: 0 15px;
 }
 
-section {
+.section {
   padding: 120px 0;
 }
 
@@ -78,7 +78,11 @@ section {
   display: flex;
   justify-content: space-between;
   gap: 72px;
-  padding: 24px 156px;
+  padding: 24px 0;
+}
+
+.header {
+  border-bottom: 1px solid var(--accent);
 }
 
 .nav {
@@ -194,20 +198,10 @@ section {
 
 /* #region Benefits */
 
-.benefits {
-  /* background-color: var(--white); */
-}
-
-
-
 .benefits-list {
   display: flex;
   flex-direction: row;
   gap: 24px;
-}
-
-.benefits-item {
-  /* background-color: var(--white); */
 }
 
 .benefits-title {
@@ -273,6 +267,10 @@ section {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+}
+
+.portfolio-item {
+  border-bottom: 1px solid var(--accent);
 }
 
 /* #endregion Portfolio */
